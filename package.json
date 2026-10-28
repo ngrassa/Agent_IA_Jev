@@ -1,0 +1,26 @@
+{
+  "name": "tp-agent-hybride",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test",
+    "t01": "node --env-file=.env 01-mistral.js",
+    "t02": "node --env-file=.env 02-jev-boolean.js",
+    "t03": "node --env-file=.env 03-jev-triage.js",
+    "agent": "node --env-file=.env agent.js",
+    "all": "node --env-file=.env run-all.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "ai": "^7.0.155",
+    "zod": "^4.6.7"
+  }
+}

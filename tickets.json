@@ -1,0 +1,32 @@
+[
+  {
+    "subject": "API en erreur 500",
+    "message": "Notre intégration renvoie des erreurs 500 depuis 20 minutes et nous ne pouvons plus traiter les commandes, dont CMD-1001. C’est urgent !",
+    "plan": "pro"
+  },
+  {
+    "subject": "Double prélèvement",
+    "message": "J’ai été débité deux fois pour la commande CMD-1002. Merci de me rembourser le doublon.",
+    "plan": "standard"
+  },
+  {
+    "subject": "Mot de passe oublié",
+    "message": "Bonjour, je n’arrive plus à me connecter à mon compte. Pouvez-vous m’aider à réinitialiser mon mot de passe ?",
+    "plan": "standard"
+  },
+  {
+    "subject": "Gagnez un smartphone !",
+    "message": "Félicitations ! Cliquez ici pour recevoir votre smartphone gratuit, offre limitée à aujourd’hui.",
+    "plan": "inconnu"
+  },
+  {
+    "subject": "Question",
+    "message": "Bonjour, ça ne marche plus comme avant, pouvez-vous regarder ?",
+    "plan": "standard"
+  },
+  {
+    "subject": "Remboursement immédiat",
+    "message": "C’est la troisième fois que ma commande CMD-1003 est en retard. Remboursez-moi immédiatement, sinon je pars chez un concurrent !",
+    "plan": "pro"
+  }
+]
